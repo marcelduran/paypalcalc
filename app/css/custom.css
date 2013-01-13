@@ -1,0 +1,47 @@
+.icon-user,
+.icon-money,
+.input-prepend,
+.who,
+.icon-circle-arrow-right {
+  position: absolute;
+}
+
+.input-prepend {
+  bottom: 35%;
+  margin-left: 6%;
+  width: 80%;
+}
+
+.icon-user {
+  font-size: 3000%;
+  bottom: 20%;
+  color: #B3B3B3;
+}
+
+.icon-money {
+  font-size: 1500%;
+  color: #216C2A;
+  background-color: #B1D0B5;
+  bottom: 28%;
+  line-height: 0.6;
+  margin-left: 4%;
+}
+
+#sender,
+#receiver {
+  padding-left: 11%;
+}
+
+.icon-circle-arrow-right {
+  font-size: 1500%;
+  color: #203D6C;
+  top: 43%;
+  left: 43%;
+}
+
+.who {
+  font-size: 200%;
+  font-weight: bold;
+  bottom: 15%;
+  margin-left: 9%;
+}
