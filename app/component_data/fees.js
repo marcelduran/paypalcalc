@@ -28,7 +28,6 @@ define(
         }
 
         amount = (Math.round((data.amount + fee) * 100) / 100).toFixed(2);
-        console.log(data.to, data.amount, fee, amount);
 
         this.trigger('dataCalc' + data.to, {amount: amount});
       };
