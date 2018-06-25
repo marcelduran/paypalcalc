@@ -13,8 +13,8 @@ define(
     function fees() {
 
       this.defaultAttrs({
-        percentage: (2.7 + 1.5),
-        fixed: .0
+        percentage: 4.4,
+        fixed: .3
       });
 
       this.calc = function(ev, data) {
